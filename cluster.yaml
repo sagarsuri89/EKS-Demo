@@ -6,13 +6,12 @@ metadata:
   name: CLUSTER_NAME
   region: AWS_REGION
   tags:
-    project: linkedin-learning
+    project: Sagar_Project
 
 nodeGroups:
   - name: WORKER_NODE_NAME
-    instanceType: EC2_INSTANCE_TYPE
+
+#ie m5.large
+    instanceType: EC2_INSTANCE_TYPE 
     desiredCapacity: NUMBER_OF_NODES
-  # - name: ng-2
-  #   instanceType: m5.xlarge
-  #   desiredCapacity: 2
   
